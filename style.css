@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+#ad, .ad {
+  margin: 15px auto;
+  max-width: 728px;
+}
+
+#gameArea {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  background: #fff;
+  overflow: hidden;
+}
+
+#ball {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+}
+
+#basket {
+  position: absolute;
+  bottom: 10px;
+  left: 130px;
+  width: 60px;
+  height: 20px;
+  background: #333;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body { font-family: Arial, line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
+    input, textarea { width: 100%; padding: 10px; margin: 8px 0; }
+    button { padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>If you have any questions, suggestions, or feedback about the game or the site, feel free to contact us.</p>
+
+  <form>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" required>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" rows="6" required></textarea>
+
+    <button type="submit" onclick="alert('Thanks! As this is a static site, please email us at your@email.com'); return false;">
+      Send Message
+    </button>
+  </form>
+</body>
+</html>
